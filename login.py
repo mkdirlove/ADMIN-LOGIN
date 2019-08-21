@@ -22,13 +22,11 @@ def berhasil():
         print (" ")
         tampil ('         [][][][][][][][][][][][][][][][][][][][]')
 	os.system('sleep 1')
-	tampil ('              ADMIN    >\rh USER')
+	tampil ('              ADMIN    >\rh @@@@@@@@@@')
         os.system('sleep 1')
-        tampil ('              USER     >\rh RUZTAM D-ROCKZ')
-        os.system('sleep 1')
-        tampil ('              USERNAME >\rh DARK-LINK')
+        tampil ('              USERNAME >\rh @@@@@@@@@@')
 	os.system('sleep 1')
-	tampil ('              ID       >\rh 100026360573112')
+	tampil ('              ID       >\rh @@@@@@@@@@')
 	os.system('sleep 1')
         tampil ('         [][][][][][][][][][][][][][][][][][][][]')
 	os.system('sleep 3')
@@ -86,11 +84,6 @@ def login():
                         sandi = getpass.getpass('\033[32;1m>>> Password__ ')
                         if sandi == 'DARKLINK000' and user == 'Dark-Link':
                                 berhasil()
-                        elif sandi == '00000' and user == 'Dark-Link':
-                                berhasil()
-			elif sandi == '0' and user == '0':
-				os.system('clear')
-				exit()
                         else:
 				salah()
 		except KeyboardInterrupt:
