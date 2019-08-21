@@ -41,7 +41,7 @@ def salah():
 	os.system('figlet -f slant " FAILED" | lolcat')
 	os.system('sleep 2')
 	tampil (' ')
-	tampil (' [!] \rmWRONG PASSWORD OR USERNAME')
+	tampil (' [!] \rmWRONG USERNAME OR PASSWORD')
 	os.system('sleep 1')
 	tampil (' [*] \rhTRY AGAIN!!')
 	os.system('sleep 3')
@@ -82,7 +82,7 @@ def login():
 \033[31;1m==========================================================\033[32;1m''')
                         user = raw_input('\033[32;1m>>> Username__ \033[30;1m')
                         sandi = getpass.getpass('\033[32;1m>>> Password__ ')
-                        if sandi == 'DARKLINK000' and user == 'Dark-Link':
+                        if sandi == 'SSAANNDDII' and user == 'UUSSEERR':
                                 berhasil()
                         else:
 				salah()
@@ -96,8 +96,6 @@ def login():
                 except NameError:
                         login()
                 except ValueError:
-                        login()
-                except SyntaxError:
                         login()
 
 os.system('clear')
