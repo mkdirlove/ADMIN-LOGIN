@@ -22,5 +22,5 @@ Instalation (with tools supported)
 -> Then enter the coomand "$ cd" to go to the main Termux directory.
 -> $ cd ../usr/etc
 -> $ nano bash.bashrc
--> Enter the address "login.py" earlier (cd admin_login && login.py).
--> Open a new look to test.
+-> Enter the address "login.py" earlier (cd admin_login && login.py && cd).
+-> Open a new tab to test.
